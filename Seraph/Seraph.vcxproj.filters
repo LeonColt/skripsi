@@ -1,0 +1,556 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\windows">
+      <UniqueIdentifier>{0d173619-f7fb-4430-80ab-bba4d439c732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\windows\main_window">
+      <UniqueIdentifier>{47b6d860-b31d-44b4-bcea-a59e8ce7c2fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\windows">
+      <UniqueIdentifier>{fb8793b2-8607-47c4-bd90-f4709d3b5dff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\windows\main_window">
+      <UniqueIdentifier>{9b6d6ed4-d4d8-4a61-a204-4ead8d44ced4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\support">
+      <UniqueIdentifier>{5dfb9502-79f9-4393-9827-3350a0c66863}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\support">
+      <UniqueIdentifier>{9ca79f9a-034a-4b8a-b1d5-873dacc6ac98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\file">
+      <UniqueIdentifier>{eefe647e-5b42-4af2-8ba8-81387c7a3c0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\file">
+      <UniqueIdentifier>{4e9e71c6-7eda-49fd-9dc4-824115bee56d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\windows\main_window\login">
+      <UniqueIdentifier>{7b179c88-9249-4a5a-8046-034b0f6f0ead}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\windows\main_window\login">
+      <UniqueIdentifier>{129ba574-4705-4646-8c2a-b4801d47f816}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\windows\main_window\registry">
+      <UniqueIdentifier>{cf691aab-dcf0-466d-a730-ce607798b2ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\windows\main_window\registry">
+      <UniqueIdentifier>{fa0da7a1-53c2-43f8-b50a-65adac671594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\windows\main_window\file_control">
+      <UniqueIdentifier>{5d03f8b4-6d56-4e39-9689-37402d86713a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\windows\main_window\file_control">
+      <UniqueIdentifier>{cec6fde5-e2d8-4ae4-9702-22fedef4f5ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\windows\file_download_window">
+      <UniqueIdentifier>{4c2903a9-58ae-477c-bb8f-95347a080428}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\windows\base">
+      <UniqueIdentifier>{86b18b0c-b6f4-4fd1-8781-b5e19a6e9eec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\windows\file_download_window">
+      <UniqueIdentifier>{c97c9675-7818-47eb-ae18-b14c926fa99d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\windows\base">
+      <UniqueIdentifier>{a2f22dd4-1261-468f-b689-92fd0be5ece6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\meta_data">
+      <UniqueIdentifier>{d622ae4c-d5d2-48b6-8693-1580466e89c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\windows\file_upload_operation">
+      <UniqueIdentifier>{e787a8e5-905d-47f9-98a3-4e069e78805a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\windows\file_upload_operation">
+      <UniqueIdentifier>{ef71fe86-b692-4841-93b1-6243c3753133}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\meta_data">
+      <UniqueIdentifier>{4c5e2229-9469-4d04-b0b3-585279db267b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\meta_data\upload">
+      <UniqueIdentifier>{57d2385e-8576-4be9-a222-1a0b4c415dc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\meta_data\upload">
+      <UniqueIdentifier>{4c7244a9-8df6-4d4a-9bd0-33b668b6d73b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\meta_data\download">
+      <UniqueIdentifier>{bb9a0b2a-ebb6-4b5a-a97b-97179be4f2eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\meta_data\download">
+      <UniqueIdentifier>{f21114f9-dc07-4b27-8b19-a9cc21e26ff8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\file\cloud">
+      <UniqueIdentifier>{d6182b62-a8b5-4b5a-8315-4f0ff0403df0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\file\cloud">
+      <UniqueIdentifier>{5ac765bc-90a9-4bf8-a04b-73abda05db9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\windows\main_window\file_control\file_operation">
+      <UniqueIdentifier>{a3adaa93-fbf2-4c64-92d0-34df345581d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\windows\main_window\file_control\file_operation">
+      <UniqueIdentifier>{00d22044-300d-49fc-a6f3-ee72176c6b27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\file\cloud\operator">
+      <UniqueIdentifier>{329747f5-0af7-4678-9688-402442756fa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\windows\property">
+      <UniqueIdentifier>{4e51ee01-dfdd-42c6-ab11-aa35c028cf2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\windows\property">
+      <UniqueIdentifier>{0abd169e-3434-46a1-b30f-41a4ecc7d8dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\windows\property\cloud_property">
+      <UniqueIdentifier>{9fb9571f-9630-4125-8063-2261dc89fd2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\windows\property\local_property">
+      <UniqueIdentifier>{39b8af2a-0f2f-4004-8b5e-bada160621b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\windows\property\local_property">
+      <UniqueIdentifier>{dc3f7a44-ca2a-415f-ad06-0cef76465a7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\windows\property\cloud_property">
+      <UniqueIdentifier>{83c58df4-d6de-478b-a1ba-4d383c6ab675}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\windows\property\cloud_recycle_bin">
+      <UniqueIdentifier>{f53c6d9b-88f9-49ee-bd01-ec2c242c185e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\windows\property\cloud_recycle_bin">
+      <UniqueIdentifier>{90907643-5006-41f1-b516-c161791ccf7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\user_control">
+      <UniqueIdentifier>{8a29b33c-f8b4-4463-aa7f-0a1ee1b1ff47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\user_control">
+      <UniqueIdentifier>{9ed7fee8-be6f-4c21-bab7-ab0278aa6763}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Seraph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWindow.h">
+      <Filter>Header Files\windows\main_window</Filter>
+    </ClInclude>
+    <ClInclude Include="resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Definator.h">
+      <Filter>Header Files\support</Filter>
+    </ClInclude>
+    <ClInclude Include="UserCredential.h">
+      <Filter>Header Files\file</Filter>
+    </ClInclude>
+    <ClInclude Include="Akey.h">
+      <Filter>Header Files\support</Filter>
+    </ClInclude>
+    <ClInclude Include="Login.h">
+      <Filter>Header Files\windows\main_window\login</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginAsynctask.h">
+      <Filter>Header Files\windows\main_window\login</Filter>
+    </ClInclude>
+    <ClInclude Include="Registry.h">
+      <Filter>Header Files\windows\main_window\registry</Filter>
+    </ClInclude>
+    <ClInclude Include="FileControl.h">
+      <Filter>Header Files\windows\main_window\file_control</Filter>
+    </ClInclude>
+    <ClInclude Include="RegistryGetBenutzerID.h">
+      <Filter>Header Files\windows\main_window\registry</Filter>
+    </ClInclude>
+    <ClInclude Include="RegistryRegistry.h">
+      <Filter>Header Files\windows\main_window\registry</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomAsyncTask.h">
+      <Filter>Header Files\windows\base</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomContainer.h">
+      <Filter>Header Files\windows\base</Filter>
+    </ClInclude>
+    <ClInclude Include="FileProcessWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomWindow.h">
+      <Filter>Header Files\windows\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Downloader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileOperationWindow.h">
+      <Filter>Header Files\windows\file_download_window</Filter>
+    </ClInclude>
+    <ClInclude Include="Operation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MetaData.h">
+      <Filter>Header Files\meta_data</Filter>
+    </ClInclude>
+    <ClInclude Include="Uploader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileUploadOperationWindow.h">
+      <Filter>Header Files\windows\file_upload_operation</Filter>
+    </ClInclude>
+    <ClInclude Include="UploadFileRequestAT.h">
+      <Filter>Header Files\windows\file_upload_operation</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomInternetJSONAsyncTask.h">
+      <Filter>Header Files\windows\base</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomInternetAT.h">
+      <Filter>Header Files\windows\base</Filter>
+    </ClInclude>
+    <ClInclude Include="FileUploadProcessWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MetaDataDoesNotMatchException.h">
+      <Filter>Header Files\meta_data</Filter>
+    </ClInclude>
+    <ClInclude Include="MetaDataDownload.h">
+      <Filter>Header Files\meta_data\download</Filter>
+    </ClInclude>
+    <ClInclude Include="MetaDataUpload.h">
+      <Filter>Header Files\meta_data\upload</Filter>
+    </ClInclude>
+    <ClInclude Include="CloudRoot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MetaDataDownloadBaseFile.h">
+      <Filter>Header Files\meta_data\download</Filter>
+    </ClInclude>
+    <ClInclude Include="MetaDataDownloadDirectory.h">
+      <Filter>Header Files\meta_data\download</Filter>
+    </ClInclude>
+    <ClInclude Include="MetaDataDownloadFile.h">
+      <Filter>Header Files\meta_data\download</Filter>
+    </ClInclude>
+    <ClInclude Include="CloudMoveFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CloudFileOperator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileExecutor.h">
+      <Filter>Header Files\windows\main_window\file_control\file_operation</Filter>
+    </ClInclude>
+    <ClInclude Include="MetaDataUploadDetail.h">
+      <Filter>Header Files\meta_data\upload</Filter>
+    </ClInclude>
+    <ClInclude Include="UploadedFileTotalSizeAT.h">
+      <Filter>Header Files\windows\file_upload_operation</Filter>
+    </ClInclude>
+    <ClInclude Include="CopyFileCloudRequest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CutFileCloudRequest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileControlSelectSwitcher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JSON.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CloudCopyFile.h">
+      <Filter>Header Files\file\cloud\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="CloudCreateNewFolder.h">
+      <Filter>Header Files\file\cloud\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="CloudDeleteFile.h">
+      <Filter>Header Files\file\cloud\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="CloudFileRenamer.h">
+      <Filter>Header Files\file\cloud\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="CloudRestoreFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CloudProperty.h">
+      <Filter>Header Files\windows\property\cloud_property</Filter>
+    </ClInclude>
+    <ClInclude Include="CloudPropertyAbout.h">
+      <Filter>Header Files\windows\property\cloud_property</Filter>
+    </ClInclude>
+    <ClInclude Include="GetPrivilegeList.h">
+      <Filter>Header Files\windows\property\cloud_property</Filter>
+    </ClInclude>
+    <ClInclude Include="CloudPropertyPrivilegeList.h">
+      <Filter>Header Files\windows\property\cloud_property</Filter>
+    </ClInclude>
+    <ClInclude Include="ForgetPassword.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DeleteCloudRecycleBinObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfirmationRegistration.h">
+      <Filter>Header Files\windows\main_window\registry</Filter>
+    </ClInclude>
+    <ClInclude Include="MarkFileAsPrivilegeByAll.h">
+      <Filter>Header Files\windows\property\cloud_property</Filter>
+    </ClInclude>
+    <ClInclude Include="SetPrivilegeUserOnFile.h">
+      <Filter>Header Files\windows\property\cloud_property</Filter>
+    </ClInclude>
+    <ClInclude Include="LocalProperty.h">
+      <Filter>Header Files\windows\property\local_property</Filter>
+    </ClInclude>
+    <ClInclude Include="CloudRecycleBinProperty.h">
+      <Filter>Header Files\windows\property\cloud_recycle_bin</Filter>
+    </ClInclude>
+    <ClInclude Include="CloudRecycleBinPropertyAbout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Property.h">
+      <Filter>Header Files\windows\base</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Header Files\user_control</Filter>
+    </ClInclude>
+    <ClInclude Include="URLParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LocalChangeDetector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DownloadRequest.h">
+      <Filter>Header Files\windows\main_window\file_control</Filter>
+    </ClInclude>
+    <ClInclude Include="LocalPropertyAbout.h">
+      <Filter>Header Files\windows\property\local_property</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Seraph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>Source Files\windows\main_window</Filter>
+    </ClCompile>
+    <ClCompile Include="UserCredential.cpp">
+      <Filter>Source Files\file</Filter>
+    </ClCompile>
+    <ClCompile Include="Akey.cpp">
+      <Filter>Source Files\support</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginAsynctask.cpp">
+      <Filter>Source Files\windows\main_window\login</Filter>
+    </ClCompile>
+    <ClCompile Include="Login.cpp">
+      <Filter>Source Files\windows\main_window\login</Filter>
+    </ClCompile>
+    <ClCompile Include="Registry.cpp">
+      <Filter>Source Files\windows\main_window\registry</Filter>
+    </ClCompile>
+    <ClCompile Include="FileControl.cpp">
+      <Filter>Source Files\windows\main_window\file_control</Filter>
+    </ClCompile>
+    <ClCompile Include="RegistryGetBenutzerID.cpp">
+      <Filter>Source Files\windows\main_window\registry</Filter>
+    </ClCompile>
+    <ClCompile Include="RegistryRegistry.cpp">
+      <Filter>Source Files\windows\main_window\registry</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomAsyncTask.cpp">
+      <Filter>Source Files\windows\base</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomContainer.cpp">
+      <Filter>Source Files\windows\base</Filter>
+    </ClCompile>
+    <ClCompile Include="FileProcessWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomWindow.cpp">
+      <Filter>Source Files\windows\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Downloader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileOperationWindow.cpp">
+      <Filter>Source Files\windows\file_download_window</Filter>
+    </ClCompile>
+    <ClCompile Include="Operation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Uploader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileUploadOperationWindow.cpp">
+      <Filter>Source Files\windows\file_upload_operation</Filter>
+    </ClCompile>
+    <ClCompile Include="UploadFileRequestAT.cpp">
+      <Filter>Source Files\windows\file_upload_operation</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomInternetAT.cpp">
+      <Filter>Source Files\windows\base</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomInternetJSONAsyncTask.cpp">
+      <Filter>Source Files\windows\base</Filter>
+    </ClCompile>
+    <ClCompile Include="FileUploadProcessWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MetaDataDoesNotMatchException.cpp">
+      <Filter>Source Files\meta_data</Filter>
+    </ClCompile>
+    <ClCompile Include="MetaDataDownload.cpp">
+      <Filter>Source Files\meta_data\download</Filter>
+    </ClCompile>
+    <ClCompile Include="MetaDataUpload.cpp">
+      <Filter>Source Files\meta_data\upload</Filter>
+    </ClCompile>
+    <ClCompile Include="CloudRoot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MetaData.cpp">
+      <Filter>Source Files\meta_data</Filter>
+    </ClCompile>
+    <ClCompile Include="MetaDataDownloadBaseFile.cpp">
+      <Filter>Source Files\meta_data\download</Filter>
+    </ClCompile>
+    <ClCompile Include="MetaDataDownloadDirectory.cpp">
+      <Filter>Source Files\meta_data\download</Filter>
+    </ClCompile>
+    <ClCompile Include="CloudMoveFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CloudFileOperator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileExecutor.cpp">
+      <Filter>Source Files\windows\main_window\file_control\file_operation</Filter>
+    </ClCompile>
+    <ClCompile Include="MetaDataDownloadFile.cpp">
+      <Filter>Source Files\meta_data\download</Filter>
+    </ClCompile>
+    <ClCompile Include="MetaDataUploadDetail.cpp">
+      <Filter>Source Files\meta_data\upload</Filter>
+    </ClCompile>
+    <ClCompile Include="UploadedFileTotalSizeAT.cpp">
+      <Filter>Source Files\windows\file_upload_operation</Filter>
+    </ClCompile>
+    <ClCompile Include="CopyFileCloudRequest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CutFileCloudRequest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileControlSelectSwitcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JSON.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CloudCopyFile.cpp">
+      <Filter>Source Files\file\cloud</Filter>
+    </ClCompile>
+    <ClCompile Include="CloudCreateNewFolder.cpp">
+      <Filter>Source Files\file\cloud</Filter>
+    </ClCompile>
+    <ClCompile Include="CloudDeleteFile.cpp">
+      <Filter>Source Files\file\cloud</Filter>
+    </ClCompile>
+    <ClCompile Include="CloudFileRenamer.cpp">
+      <Filter>Source Files\file\cloud</Filter>
+    </ClCompile>
+    <ClCompile Include="CloudRestoreFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CloudProperty.cpp">
+      <Filter>Source Files\windows\property\cloud_property</Filter>
+    </ClCompile>
+    <ClCompile Include="CloudPropertyAbout.cpp">
+      <Filter>Source Files\windows\property\cloud_property</Filter>
+    </ClCompile>
+    <ClCompile Include="MarkFileAsSeenByAll.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GetPrivilegeList.cpp">
+      <Filter>Source Files\windows\property\cloud_property</Filter>
+    </ClCompile>
+    <ClCompile Include="CloudPropertyPrivilegeList.cpp">
+      <Filter>Source Files\windows\property\cloud_property</Filter>
+    </ClCompile>
+    <ClCompile Include="SetPrivilegeUserOnFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ForgetPassword.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DeleteCloudRecycleBinObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfirmationRegistration.cpp">
+      <Filter>Source Files\windows\main_window\registry</Filter>
+    </ClCompile>
+    <ClCompile Include="LocalProperty.cpp">
+      <Filter>Source Files\windows\property\local_property</Filter>
+    </ClCompile>
+    <ClCompile Include="CloudRecycleBinProperty.cpp">
+      <Filter>Source Files\windows\property\cloud_recycle_bin</Filter>
+    </ClCompile>
+    <ClCompile Include="CloudRecycleBinPropertyAbout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Property.cpp">
+      <Filter>Source Files\windows\base</Filter>
+    </ClCompile>
+    <ClCompile Include="URLParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LocalChangeDetector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DownloadRequest.cpp">
+      <Filter>Source Files\windows\main_window\file_control</Filter>
+    </ClCompile>
+    <ClCompile Include="LocalPropertyAbout.cpp">
+      <Filter>Source Files\windows\property\local_property</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Seraph.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Seraph.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

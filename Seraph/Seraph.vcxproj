@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E6808745-FDB3-406A-BD0F-5A80A6156E7D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Seraph</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>A:\APP_SKRIPSI\poco\Foundation\include;A:\APP_SKRIPSI\poco\JSON\include;A:\APP_SKRIPSI\Maschinen\Maschinen;A:\APP_SKRIPSI\SeraphCommon\SeraphCommon;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>A:\APP_SKRIPSI\Maschinen\x64\Debug;A:\APP_SKRIPSI\poco\lib64;A:\APP_SKRIPSI\poco\bin64;A:\APP_SKRIPSI\SeraphCommon\x64\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Maschinen.lib;Comctl32.lib;UxTheme.lib;PocoFoundationd.lib;PocoJSONd.lib;Wininet.lib;Shlwapi.lib;SeraphCommon.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>A:\APP_SKRIPSI\Maschinen\Maschinen;A:\APP_SKRIPSI\poco\JSON\include;A:\APP_SKRIPSI\poco\Foundation\include;A:\APP_SKRIPSI\SeraphCommon\SeraphCommon;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Comctl32.lib;Maschinen.lib;UxTheme.lib;Wininet.lib;SeraphCommon.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>A:\APP_SKRIPSI\Maschinen\x64\Release;A:\APP_SKRIPSI\poco\bin64;A:\APP_SKRIPSI\poco\lib64;A:\APP_SKRIPSI\SeraphCommon\x64\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Akey.h" />
+    <ClInclude Include="CloudCopyFile.h" />
+    <ClInclude Include="CloudCreateNewFolder.h" />
+    <ClInclude Include="CloudDeleteFile.h" />
+    <ClInclude Include="CloudFileOperator.h" />
+    <ClInclude Include="CloudFileRenamer.h" />
+    <ClInclude Include="CloudMoveFile.h" />
+    <ClInclude Include="CloudPropertyPrivilegeList.h" />
+    <ClInclude Include="CloudRecycleBinProperty.h" />
+    <ClInclude Include="CloudRecycleBinPropertyAbout.h" />
+    <ClInclude Include="CloudRestoreFile.h" />
+    <ClInclude Include="CloudRoot.h" />
+    <ClInclude Include="ConfirmationRegistration.h" />
+    <ClInclude Include="CopyFileCloudRequest.h" />
+    <ClInclude Include="CustomAsyncTask.h" />
+    <ClInclude Include="CustomInternetAT.h" />
+    <ClInclude Include="CustomInternetJSONAsyncTask.h" />
+    <ClInclude Include="CustomWindow.h" />
+    <ClInclude Include="CutFileCloudRequest.h" />
+    <ClInclude Include="CloudProperty.h" />
+    <ClInclude Include="CloudPropertyAbout.h" />
+    <ClInclude Include="DeleteCloudRecycleBinObject.h" />
+    <ClInclude Include="FileControlSelectSwitcher.h" />
+    <ClInclude Include="FileExecutor.h" />
+    <ClInclude Include="Definator.h" />
+    <ClInclude Include="Downloader.h" />
+    <ClInclude Include="FileControl.h" />
+    <ClInclude Include="DownloadRequest.h" />
+    <ClInclude Include="FileOperationWindow.h" />
+    <ClInclude Include="FileProcessWindow.h" />
+    <ClInclude Include="FileUploadOperationWindow.h" />
+    <ClInclude Include="FileUploadProcessWindow.h" />
+    <ClInclude Include="ForgetPassword.h" />
+    <ClInclude Include="GetPrivilegeList.h" />
+    <ClInclude Include="JSON.h" />
+    <ClInclude Include="LocalChangeDetector.h" />
+    <ClInclude Include="LocalProperty.h" />
+    <ClInclude Include="LocalPropertyAbout.h" />
+    <ClInclude Include="Login.h" />
+    <ClInclude Include="LoginAsynctask.h" />
+    <ClInclude Include="MainWindow.h" />
+    <ClInclude Include="CustomContainer.h" />
+    <ClInclude Include="MarkFileAsPrivilegeByAll.h" />
+    <ClInclude Include="MetaData.h" />
+    <ClInclude Include="MetaDataDoesNotMatchException.h" />
+    <ClInclude Include="MetaDataDownload.h" />
+    <ClInclude Include="MetaDataDownloadBaseFile.h" />
+    <ClInclude Include="MetaDataDownloadDirectory.h" />
+    <ClInclude Include="MetaDataDownloadFile.h" />
+    <ClInclude Include="MetaDataUpload.h" />
+    <ClInclude Include="MetaDataUploadDetail.h" />
+    <ClInclude Include="Operation.h" />
+    <ClInclude Include="Property.h" />
+    <ClInclude Include="Registry.h" />
+    <ClInclude Include="RegistryGetBenutzerID.h" />
+    <ClInclude Include="RegistryRegistry.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="resources.h" />
+    <ClInclude Include="Seraph.h" />
+    <ClInclude Include="SetPrivilegeUserOnFile.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="UploadedFileTotalSizeAT.h" />
+    <ClInclude Include="Uploader.h" />
+    <ClInclude Include="UploadFileRequestAT.h" />
+    <ClInclude Include="URLParser.h" />
+    <ClInclude Include="User.h" />
+    <ClInclude Include="UserCredential.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Akey.cpp" />
+    <ClCompile Include="CloudCopyFile.cpp" />
+    <ClCompile Include="CloudCreateNewFolder.cpp" />
+    <ClCompile Include="CloudDeleteFile.cpp" />
+    <ClCompile Include="CloudFileOperator.cpp" />
+    <ClCompile Include="CloudFileRenamer.cpp" />
+    <ClCompile Include="CloudMoveFile.cpp" />
+    <ClCompile Include="CloudPropertyPrivilegeList.cpp" />
+    <ClCompile Include="CloudRecycleBinProperty.cpp" />
+    <ClCompile Include="CloudRecycleBinPropertyAbout.cpp" />
+    <ClCompile Include="CloudRestoreFile.cpp" />
+    <ClCompile Include="CloudRoot.cpp" />
+    <ClCompile Include="ConfirmationRegistration.cpp" />
+    <ClCompile Include="CopyFileCloudRequest.cpp" />
+    <ClCompile Include="CustomAsyncTask.cpp" />
+    <ClCompile Include="CustomInternetAT.cpp" />
+    <ClCompile Include="CustomInternetJSONAsyncTask.cpp" />
+    <ClCompile Include="CustomWindow.cpp" />
+    <ClCompile Include="CutFileCloudRequest.cpp" />
+    <ClCompile Include="CloudProperty.cpp" />
+    <ClCompile Include="CloudPropertyAbout.cpp" />
+    <ClCompile Include="DeleteCloudRecycleBinObject.cpp" />
+    <ClCompile Include="FileControlSelectSwitcher.cpp" />
+    <ClCompile Include="FileExecutor.cpp" />
+    <ClCompile Include="Downloader.cpp" />
+    <ClCompile Include="FileControl.cpp" />
+    <ClCompile Include="DownloadRequest.cpp" />
+    <ClCompile Include="FileOperationWindow.cpp" />
+    <ClCompile Include="FileProcessWindow.cpp" />
+    <ClCompile Include="FileUploadOperationWindow.cpp" />
+    <ClCompile Include="FileUploadProcessWindow.cpp" />
+    <ClCompile Include="ForgetPassword.cpp" />
+    <ClCompile Include="GetPrivilegeList.cpp" />
+    <ClCompile Include="JSON.cpp" />
+    <ClCompile Include="LocalChangeDetector.cpp" />
+    <ClCompile Include="LocalProperty.cpp" />
+    <ClCompile Include="LocalPropertyAbout.cpp" />
+    <ClCompile Include="Login.cpp" />
+    <ClCompile Include="LoginAsynctask.cpp" />
+    <ClCompile Include="MainWindow.cpp" />
+    <ClCompile Include="CustomContainer.cpp" />
+    <ClCompile Include="MarkFileAsSeenByAll.cpp" />
+    <ClCompile Include="MetaData.cpp" />
+    <ClCompile Include="MetaDataDoesNotMatchException.cpp" />
+    <ClCompile Include="MetaDataDownload.cpp" />
+    <ClCompile Include="MetaDataDownloadBaseFile.cpp" />
+    <ClCompile Include="MetaDataDownloadDirectory.cpp" />
+    <ClCompile Include="MetaDataDownloadFile.cpp" />
+    <ClCompile Include="MetaDataUpload.cpp" />
+    <ClCompile Include="MetaDataUploadDetail.cpp" />
+    <ClCompile Include="Operation.cpp" />
+    <ClCompile Include="Property.cpp" />
+    <ClCompile Include="Registry.cpp" />
+    <ClCompile Include="RegistryGetBenutzerID.cpp" />
+    <ClCompile Include="RegistryRegistry.cpp" />
+    <ClCompile Include="Seraph.cpp" />
+    <ClCompile Include="SetPrivilegeUserOnFile.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="UploadedFileTotalSizeAT.cpp" />
+    <ClCompile Include="Uploader.cpp" />
+    <ClCompile Include="UploadFileRequestAT.cpp" />
+    <ClCompile Include="URLParser.cpp" />
+    <ClCompile Include="User.cpp" />
+    <ClCompile Include="UserCredential.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Seraph.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Seraph.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

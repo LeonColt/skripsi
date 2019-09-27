@@ -1,0 +1,627 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\controller">
+      <UniqueIdentifier>{8601395d-3c13-4a2f-809b-e165b2d443bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\controller\base">
+      <UniqueIdentifier>{bb170d09-4310-40d8-a676-e73b83034f71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\controller">
+      <UniqueIdentifier>{98495466-4cee-4590-9057-4c1df45aa6b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\controller\base">
+      <UniqueIdentifier>{e83e62ad-634d-4b28-a528-273071927cfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\menu">
+      <UniqueIdentifier>{e2641bd5-87ec-4ef8-8ee2-2ed85366b5e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\menu">
+      <UniqueIdentifier>{c4e9e5b9-d722-4a92-961a-022f9eb80d31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\controller\listview">
+      <UniqueIdentifier>{4e3ec21d-daec-4224-afb3-fba977fe93ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\controller\common">
+      <UniqueIdentifier>{23f40cba-f72a-4e3b-b0e6-af655e776837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\controller\common">
+      <UniqueIdentifier>{b886185c-7ae2-4438-9ba5-0140cfb53316}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\controller\listview">
+      <UniqueIdentifier>{cdc0f1c9-94da-4a85-bb60-f4016c7ede05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\controller\listview\base">
+      <UniqueIdentifier>{4c372109-1c37-438a-8e3d-41ebd652d482}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\controller\listview\base">
+      <UniqueIdentifier>{931b9bbd-56b8-45b4-b09e-105c3f745213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\controller\thread">
+      <UniqueIdentifier>{ca5937b5-9128-451a-873b-12e9622263f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\controller\thread">
+      <UniqueIdentifier>{ac3c5acc-8525-4be8-ac14-8107c932b9fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\controller\thread\task">
+      <UniqueIdentifier>{392bc742-dbe5-463e-9371-cfbe549a4b93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\controller\thread\task">
+      <UniqueIdentifier>{e46865c2-d337-4e2d-bc5c-bf89fddc8934}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\wininet">
+      <UniqueIdentifier>{bdfc3b81-3dbb-45b1-a512-166fd64f375d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\wininet">
+      <UniqueIdentifier>{f843c7c6-fe05-4372-b1cc-486cfba8bdea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\exception">
+      <UniqueIdentifier>{e54bd0f3-f238-44ae-a5df-bef5d5e50d80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\com">
+      <UniqueIdentifier>{19ba3a73-4223-4010-98d3-8b1525a70036}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\com">
+      <UniqueIdentifier>{e7913a94-13bf-43a8-b5eb-c7c0dbd55d3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\com\exception">
+      <UniqueIdentifier>{25ebdb83-5c7c-43ed-840d-9dc0b933e817}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\event">
+      <UniqueIdentifier>{c1eccc13-c9ae-4e32-8b43-a1aa153971ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\event\listener">
+      <UniqueIdentifier>{251e63de-a295-4a1e-86e6-7a7dada1d12d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\event">
+      <UniqueIdentifier>{c1bedc1c-d35a-4ba0-afa6-e9719ffb5cf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\event\listener">
+      <UniqueIdentifier>{69098675-0351-47d3-b238-afba72f6b9f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\layout">
+      <UniqueIdentifier>{1bd95910-8185-41b5-b8b6-a6175ab7ba76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\layout">
+      <UniqueIdentifier>{232b1b7c-3c04-4648-9043-a94b5f455a57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\exception">
+      <UniqueIdentifier>{7d097686-d91c-4ea9-9601-05304812fb40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\controller\listview\table">
+      <UniqueIdentifier>{069785bc-f5aa-44e8-9e4c-d722e0eb06e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\controller\listview\table">
+      <UniqueIdentifier>{69909832-e9f5-42e3-83a5-025d7f870be6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\iterator">
+      <UniqueIdentifier>{e42bc290-bee3-4fda-8485-ca36190a610f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\iterator\read_with_handle">
+      <UniqueIdentifier>{f8b1f45b-0794-4745-8174-2cf1ec3f5e5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\iterator">
+      <UniqueIdentifier>{ef80a5b6-1d8d-4c3c-b520-300e390b27f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\iterator\read_with_handle">
+      <UniqueIdentifier>{52df4dc6-fe42-4139-9df8-416c5376b8f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\pipe">
+      <UniqueIdentifier>{2738747b-cd5e-4098-b2bb-7d9f8a3ecf98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\pipe">
+      <UniqueIdentifier>{00092423-d384-40ee-b8c6-68ae6249180b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\file">
+      <UniqueIdentifier>{fddae933-44ee-4247-b360-e00c69fce5c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\file\exception">
+      <UniqueIdentifier>{46681f56-ba56-4a41-a719-5cf4131980f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\file">
+      <UniqueIdentifier>{cb89a096-fa5c-42ec-8970-5cc60f254fc1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Maschinen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Header Files\controller\base</Filter>
+    </ClInclude>
+    <ClInclude Include="UncontainedController.h">
+      <Filter>Header Files\controller\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="PopUpMenu.h">
+      <Filter>Header Files\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Header Files\controller\common</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckBox.h">
+      <Filter>Header Files\controller\common</Filter>
+    </ClInclude>
+    <ClInclude Include="Edit.h">
+      <Filter>Header Files\controller\common</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressBar.h">
+      <Filter>Header Files\controller\common</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Header Files\controller\common</Filter>
+    </ClInclude>
+    <ClInclude Include="ListViewColumn.h">
+      <Filter>Header Files\controller\listview\base</Filter>
+    </ClInclude>
+    <ClInclude Include="ListViewImageList.h">
+      <Filter>Header Files\controller\listview\base</Filter>
+    </ClInclude>
+    <ClInclude Include="ListViewItem.h">
+      <Filter>Header Files\controller\listview\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Notification.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VisibleController.h">
+      <Filter>Header Files\controller\base</Filter>
+    </ClInclude>
+    <ClInclude Include="AsynchronousTask.h">
+      <Filter>Header Files\controller\thread\task</Filter>
+    </ClInclude>
+    <ClInclude Include="InvisibleController.h">
+      <Filter>Header Files\controller\base</Filter>
+    </ClInclude>
+    <ClInclude Include="WininetConnect.h">
+      <Filter>Header Files\wininet</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpRequest.h">
+      <Filter>Header Files\wininet</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpParams.h">
+      <Filter>Header Files\wininet</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpParam.h">
+      <Filter>Header Files\wininet</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsInternet.h">
+      <Filter>Header Files\wininet</Filter>
+    </ClInclude>
+    <ClInclude Include="Tab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpRequestReadingIterator.h">
+      <Filter>Header Files\wininet</Filter>
+    </ClInclude>
+    <ClInclude Include="FileHandler.h">
+      <Filter>Header Files\file</Filter>
+    </ClInclude>
+    <ClInclude Include="ComboBox.h">
+      <Filter>Header Files\controller\common</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentObjectModel.h">
+      <Filter>Header Files\com</Filter>
+    </ClInclude>
+    <ClInclude Include="FileOperation.h">
+      <Filter>Header Files\com</Filter>
+    </ClInclude>
+    <ClInclude Include="ClipBoard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileNotDirectory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ListViewEditItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AllOriginalProcessKeeper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AllEventHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildrenKeeper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Label.h">
+      <Filter>Header Files\controller\common</Filter>
+    </ClInclude>
+    <ClInclude Include="Bitmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuItem.h">
+      <Filter>Header Files\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Container.h">
+      <Filter>Header Files\controller\common</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ContainedController.h">
+      <Filter>Header Files\controller\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Children.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OnClickEvent.h">
+      <Filter>Header Files\event</Filter>
+    </ClInclude>
+    <ClInclude Include="OnCheckedChangeListener.h">
+      <Filter>Header Files\event\listener</Filter>
+    </ClInclude>
+    <ClInclude Include="OnClickListener.h">
+      <Filter>Header Files\event\listener</Filter>
+    </ClInclude>
+    <ClInclude Include="OnListViewSelectListener.h">
+      <Filter>Header Files\event\listener</Filter>
+    </ClInclude>
+    <ClInclude Include="Layout.h">
+      <Filter>Header Files\layout</Filter>
+    </ClInclude>
+    <ClInclude Include="LayoutMatrix.h">
+      <Filter>Header Files\layout</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectoryHandler.h">
+      <Filter>Header Files\file</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectoryReadingIterator.h">
+      <Filter>Header Files\file</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception.h">
+      <Filter>Header Files\exception</Filter>
+    </ClInclude>
+    <ClInclude Include="FileNotFoundException.h">
+      <Filter>Header Files\exception</Filter>
+    </ClInclude>
+    <ClInclude Include="NullReferenceControlObjectException.h">
+      <Filter>Header Files\exception</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Header Files\event</Filter>
+    </ClInclude>
+    <ClInclude Include="OnListViewSelectEvent.h">
+      <Filter>Header Files\event</Filter>
+    </ClInclude>
+    <ClInclude Include="ListViewGroup.h">
+      <Filter>Header Files\controller\listview\base</Filter>
+    </ClInclude>
+    <ClInclude Include="ListViewSubItem.h">
+      <Filter>Header Files\controller\listview\base</Filter>
+    </ClInclude>
+    <ClInclude Include="ListViewBasic.h">
+      <Filter>Header Files\controller\listview\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Table.h">
+      <Filter>Header Files\controller\listview\table</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpHeader.h">
+      <Filter>Header Files\wininet</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpHeaders.h">
+      <Filter>Header Files\wininet</Filter>
+    </ClInclude>
+    <ClInclude Include="FileHandleBase.h">
+      <Filter>Header Files\file</Filter>
+    </ClInclude>
+    <ClInclude Include="FileHandleAsynchronous.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ListView.h">
+      <Filter>Header Files\controller\listview</Filter>
+    </ClInclude>
+    <ClInclude Include="OnEditTextChangedListener.h">
+      <Filter>Header Files\event\listener</Filter>
+    </ClInclude>
+    <ClInclude Include="OnKeyPressedListener.h">
+      <Filter>Header Files\event\listener</Filter>
+    </ClInclude>
+    <ClInclude Include="ReaderIterator.h">
+      <Filter>Header Files\iterator\read_with_handle</Filter>
+    </ClInclude>
+    <ClInclude Include="ReaderIteratorNullBufferException.h">
+      <Filter>Header Files\iterator\read_with_handle</Filter>
+    </ClInclude>
+    <ClInclude Include="ReaderIteratorNullHandleException.h">
+      <Filter>Header Files\iterator\read_with_handle</Filter>
+    </ClInclude>
+    <ClInclude Include="ReaderIteratorAsynchronous.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AnonymoudPipe.h">
+      <Filter>Header Files\pipe</Filter>
+    </ClInclude>
+    <ClInclude Include="NamedPipe.h">
+      <Filter>Header Files\pipe</Filter>
+    </ClInclude>
+    <ClInclude Include="NamedPipeBase.h">
+      <Filter>Header Files\pipe</Filter>
+    </ClInclude>
+    <ClInclude Include="NamedPipeAsynchronous.h">
+      <Filter>Header Files\pipe</Filter>
+    </ClInclude>
+    <ClInclude Include="NamedPipeAsynchronousReaderIterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RedirectIOChildProcess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SecurityAttributes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OnFocusListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StatusBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Maschinen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Source Files\controller\base</Filter>
+    </ClCompile>
+    <ClCompile Include="UncontainedController.cpp">
+      <Filter>Source Files\controller\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="PopUpMenu.cpp">
+      <Filter>Source Files\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Source Files\controller\common</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckBox.cpp">
+      <Filter>Source Files\controller\common</Filter>
+    </ClCompile>
+    <ClCompile Include="Edit.cpp">
+      <Filter>Source Files\controller\common</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressBar.cpp">
+      <Filter>Source Files\controller\common</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source Files\controller\common</Filter>
+    </ClCompile>
+    <ClCompile Include="ListViewColumn.cpp">
+      <Filter>Source Files\controller\listview\base</Filter>
+    </ClCompile>
+    <ClCompile Include="ListViewItem.cpp">
+      <Filter>Source Files\controller\listview\base</Filter>
+    </ClCompile>
+    <ClCompile Include="ListViewImageList.cpp">
+      <Filter>Source Files\controller\listview\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Notification.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VisibleController.cpp">
+      <Filter>Source Files\controller\base</Filter>
+    </ClCompile>
+    <ClCompile Include="AsynchronousTask.cpp">
+      <Filter>Source Files\controller\thread\task</Filter>
+    </ClCompile>
+    <ClCompile Include="InvisibleController.cpp">
+      <Filter>Source Files\controller\base</Filter>
+    </ClCompile>
+    <ClCompile Include="WininetConnect.cpp">
+      <Filter>Source Files\wininet</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpRequest.cpp">
+      <Filter>Source Files\wininet</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpParams.cpp">
+      <Filter>Source Files\wininet</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpParam.cpp">
+      <Filter>Source Files\wininet</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsInternet.cpp">
+      <Filter>Source Files\wininet</Filter>
+    </ClCompile>
+    <ClCompile Include="Tab.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpRequestReadingIterator.cpp">
+      <Filter>Source Files\wininet</Filter>
+    </ClCompile>
+    <ClCompile Include="FileHandler.cpp">
+      <Filter>Source Files\file</Filter>
+    </ClCompile>
+    <ClCompile Include="ComboBox.cpp">
+      <Filter>Source Files\controller\common</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentObjectModel.cpp">
+      <Filter>Source Files\com</Filter>
+    </ClCompile>
+    <ClCompile Include="FileOperation.cpp">
+      <Filter>Source Files\com</Filter>
+    </ClCompile>
+    <ClCompile Include="ClipBoard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileNotDirectory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ListViewEditItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AllOriginalProcessKeeper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AllEventHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildrenKeeper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Label.cpp">
+      <Filter>Source Files\controller\common</Filter>
+    </ClCompile>
+    <ClCompile Include="Bitmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuItem.cpp">
+      <Filter>Source Files\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Container.cpp">
+      <Filter>Source Files\controller\common</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ContainedController.cpp">
+      <Filter>Source Files\controller\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Children.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OnClickEvent.cpp">
+      <Filter>Source Files\event</Filter>
+    </ClCompile>
+    <ClCompile Include="OnCheckedChangeListener.cpp">
+      <Filter>Source Files\event\listener</Filter>
+    </ClCompile>
+    <ClCompile Include="OnClickListener.cpp">
+      <Filter>Source Files\event\listener</Filter>
+    </ClCompile>
+    <ClCompile Include="OnListViewSelectListener.cpp">
+      <Filter>Source Files\event\listener</Filter>
+    </ClCompile>
+    <ClCompile Include="Layout.cpp">
+      <Filter>Source Files\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="LayoutMatrix.cpp">
+      <Filter>Source Files\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="Exception.cpp">
+      <Filter>Source Files\exception</Filter>
+    </ClCompile>
+    <ClCompile Include="FileNotFoundException.cpp">
+      <Filter>Source Files\exception</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectoryHandler.cpp">
+      <Filter>Source Files\file</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectoryReadingIterator.cpp">
+      <Filter>Source Files\file</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>Source Files\event</Filter>
+    </ClCompile>
+    <ClCompile Include="OnListViewSelectEvent.cpp">
+      <Filter>Source Files\event</Filter>
+    </ClCompile>
+    <ClCompile Include="ListViewGroup.cpp">
+      <Filter>Source Files\controller\listview\base</Filter>
+    </ClCompile>
+    <ClCompile Include="ListViewSubItem.cpp">
+      <Filter>Source Files\controller\listview\base</Filter>
+    </ClCompile>
+    <ClCompile Include="ListViewBasic.cpp">
+      <Filter>Source Files\controller\listview\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Table.cpp">
+      <Filter>Source Files\controller\listview\table</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpHeader.cpp">
+      <Filter>Source Files\wininet</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpHeaders.cpp">
+      <Filter>Source Files\wininet</Filter>
+    </ClCompile>
+    <ClCompile Include="FileHandleBase.cpp">
+      <Filter>Source Files\file</Filter>
+    </ClCompile>
+    <ClCompile Include="FileHandleAsynchronous.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ListView.cpp">
+      <Filter>Source Files\controller\listview</Filter>
+    </ClCompile>
+    <ClCompile Include="OnEditTextChangedListener.cpp">
+      <Filter>Source Files\event\listener</Filter>
+    </ClCompile>
+    <ClCompile Include="ReaderIterator.cpp">
+      <Filter>Source Files\iterator\read_with_handle</Filter>
+    </ClCompile>
+    <ClCompile Include="ReaderIteratorNullBufferException.cpp">
+      <Filter>Source Files\iterator\read_with_handle</Filter>
+    </ClCompile>
+    <ClCompile Include="ReaderIteratorNullHandleException.cpp">
+      <Filter>Source Files\iterator\read_with_handle</Filter>
+    </ClCompile>
+    <ClCompile Include="ReaderIteratorAsynchronous.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AnonymoudPipe.cpp">
+      <Filter>Source Files\pipe</Filter>
+    </ClCompile>
+    <ClCompile Include="NamedPipe.cpp">
+      <Filter>Source Files\pipe</Filter>
+    </ClCompile>
+    <ClCompile Include="NamedPipeAsynchronous.cpp">
+      <Filter>Source Files\pipe</Filter>
+    </ClCompile>
+    <ClCompile Include="NamedPipeBase.cpp">
+      <Filter>Source Files\pipe</Filter>
+    </ClCompile>
+    <ClCompile Include="NamedPipeAsynchronousReaderIterator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RedirectIOChildProcess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SecurityAttributes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OnKeyPressedListener.cpp">
+      <Filter>Source Files\event\listener</Filter>
+    </ClCompile>
+    <ClCompile Include="OnFocusListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StatusBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

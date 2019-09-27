@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F3F8BAA7-CCF3-47D7-BD0B-32C3F9786263}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Maschinen</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;MASCHINEN_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;_USRDLL;MASCHINEN_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Wininet.lib;ComCtl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;MASCHINEN_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;_USRDLL;MASCHINEN_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Wininet.lib;ComCtl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AllEventHandler.h" />
+    <ClInclude Include="AllOriginalProcessKeeper.h" />
+    <ClInclude Include="AnonymoudPipe.h" />
+    <ClInclude Include="AsynchronousTask.h" />
+    <ClInclude Include="Bitmap.h" />
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="CheckBox.h" />
+    <ClInclude Include="ChildrenKeeper.h" />
+    <ClInclude Include="Children.h" />
+    <ClInclude Include="ClipBoard.h" />
+    <ClInclude Include="ComboBox.h" />
+    <ClInclude Include="ComponentObjectModel.h" />
+    <ClInclude Include="Container.h" />
+    <ClInclude Include="Controller.h" />
+    <ClInclude Include="Crypt.h" />
+    <ClInclude Include="DirectoryHandler.h" />
+    <ClInclude Include="DirectoryReadingIterator.h" />
+    <ClInclude Include="Edit.h" />
+    <ClInclude Include="Event.h" />
+    <ClInclude Include="Exception.h" />
+    <ClInclude Include="FileHandleAsynchronous.h" />
+    <ClInclude Include="FileHandleBase.h" />
+    <ClInclude Include="FileHandler.h" />
+    <ClInclude Include="FileNotDirectory.h" />
+    <ClInclude Include="FileNotFoundException.h" />
+    <ClInclude Include="FileOperation.h" />
+    <ClInclude Include="NamedPipeAsynchronous.h" />
+    <ClInclude Include="NamedPipeAsynchronousReaderIterator.h" />
+    <ClInclude Include="NamedPipeBase.h" />
+    <ClInclude Include="OnFocusListener.h" />
+    <ClInclude Include="ReaderIterator.h" />
+    <ClInclude Include="ReaderIteratorAsynchronous.h" />
+    <ClInclude Include="ReaderIteratorNullBufferException.h" />
+    <ClInclude Include="ReaderIteratorNullHandleException.h" />
+    <ClInclude Include="HttpHeader.h" />
+    <ClInclude Include="HttpHeaders.h" />
+    <ClInclude Include="HttpParam.h" />
+    <ClInclude Include="HttpParams.h" />
+    <ClInclude Include="HttpRequest.h" />
+    <ClInclude Include="HttpRequestReadingIterator.h" />
+    <ClInclude Include="Layout.h" />
+    <ClInclude Include="LayoutMatrix.h" />
+    <ClInclude Include="ListView.h" />
+    <ClInclude Include="ListViewGroup.h" />
+    <ClInclude Include="ListViewSubItem.h" />
+    <ClInclude Include="MenuItem.h" />
+    <ClInclude Include="Label.h" />
+    <ClInclude Include="ListViewEditItem.h" />
+    <ClInclude Include="NamedPipe.h" />
+    <ClInclude Include="NullReferenceControlObjectException.h" />
+    <ClInclude Include="OnCheckedChangeListener.h" />
+    <ClInclude Include="OnClickEvent.h" />
+    <ClInclude Include="OnClickListener.h" />
+    <ClInclude Include="OnEditTextChangedListener.h" />
+    <ClInclude Include="OnKeyPressedListener.h" />
+    <ClInclude Include="OnListViewSelectEvent.h" />
+    <ClInclude Include="OnListViewSelectListener.h" />
+    <ClInclude Include="RedirectIOChildProcess.h" />
+    <ClInclude Include="SecurityAttributes.h" />
+    <ClInclude Include="StatusBar.h" />
+    <ClInclude Include="Tab.h" />
+    <ClInclude Include="TreeView.h" />
+    <ClInclude Include="WininetConnect.h" />
+    <ClInclude Include="InvisibleController.h" />
+    <ClInclude Include="ListViewBasic.h" />
+    <ClInclude Include="ListViewColumn.h" />
+    <ClInclude Include="Table.h" />
+    <ClInclude Include="ListViewImageList.h" />
+    <ClInclude Include="ListViewItem.h" />
+    <ClInclude Include="ContainedController.h" />
+    <ClInclude Include="Maschinen.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="PopUpMenu.h" />
+    <ClInclude Include="ProgressBar.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Notification.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="UncontainedController.h" />
+    <ClInclude Include="VisibleController.h" />
+    <ClInclude Include="Window.h" />
+    <ClInclude Include="WindowsInternet.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AllEventHandler.cpp" />
+    <ClCompile Include="AllOriginalProcessKeeper.cpp" />
+    <ClCompile Include="AnonymoudPipe.cpp" />
+    <ClCompile Include="AsynchronousTask.cpp" />
+    <ClCompile Include="Bitmap.cpp" />
+    <ClCompile Include="Button.cpp" />
+    <ClCompile Include="CheckBox.cpp" />
+    <ClCompile Include="ChildrenKeeper.cpp" />
+    <ClCompile Include="Children.cpp" />
+    <ClCompile Include="ClipBoard.cpp" />
+    <ClCompile Include="ComboBox.cpp" />
+    <ClCompile Include="ComponentObjectModel.cpp" />
+    <ClCompile Include="Container.cpp" />
+    <ClCompile Include="Controller.cpp" />
+    <ClCompile Include="Crypt.cpp" />
+    <ClCompile Include="DirectoryHandler.cpp" />
+    <ClCompile Include="DirectoryReadingIterator.cpp" />
+    <ClCompile Include="dllmain.cpp">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PrecompiledHeader>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Edit.cpp" />
+    <ClCompile Include="Event.cpp" />
+    <ClCompile Include="Exception.cpp" />
+    <ClCompile Include="FileHandleAsynchronous.cpp" />
+    <ClCompile Include="FileHandleBase.cpp" />
+    <ClCompile Include="FileHandler.cpp" />
+    <ClCompile Include="FileNotDirectory.cpp" />
+    <ClCompile Include="FileNotFoundException.cpp" />
+    <ClCompile Include="FileOperation.cpp" />
+    <ClCompile Include="NamedPipeAsynchronous.cpp" />
+    <ClCompile Include="NamedPipeAsynchronousReaderIterator.cpp" />
+    <ClCompile Include="NamedPipeBase.cpp" />
+    <ClCompile Include="OnFocusListener.cpp" />
+    <ClCompile Include="ReaderIterator.cpp" />
+    <ClCompile Include="ReaderIteratorAsynchronous.cpp" />
+    <ClCompile Include="ReaderIteratorNullBufferException.cpp" />
+    <ClCompile Include="ReaderIteratorNullHandleException.cpp" />
+    <ClCompile Include="HttpHeader.cpp" />
+    <ClCompile Include="HttpHeaders.cpp" />
+    <ClCompile Include="HttpParam.cpp" />
+    <ClCompile Include="HttpParams.cpp" />
+    <ClCompile Include="HttpRequest.cpp" />
+    <ClCompile Include="HttpRequestReadingIterator.cpp" />
+    <ClCompile Include="Layout.cpp" />
+    <ClCompile Include="LayoutMatrix.cpp" />
+    <ClCompile Include="ListView.cpp" />
+    <ClCompile Include="ListViewGroup.cpp" />
+    <ClCompile Include="ListViewSubItem.cpp" />
+    <ClCompile Include="MenuItem.cpp" />
+    <ClCompile Include="Label.cpp" />
+    <ClCompile Include="ListViewEditItem.cpp" />
+    <ClCompile Include="NamedPipe.cpp" />
+    <ClCompile Include="OnCheckedChangeListener.cpp" />
+    <ClCompile Include="OnClickEvent.cpp" />
+    <ClCompile Include="OnClickListener.cpp" />
+    <ClCompile Include="OnEditTextChangedListener.cpp" />
+    <ClCompile Include="OnKeyPressedListener.cpp" />
+    <ClCompile Include="OnListViewSelectEvent.cpp" />
+    <ClCompile Include="OnListViewSelectListener.cpp" />
+    <ClCompile Include="RedirectIOChildProcess.cpp" />
+    <ClCompile Include="SecurityAttributes.cpp" />
+    <ClCompile Include="StatusBar.cpp" />
+    <ClCompile Include="Tab.cpp" />
+    <ClCompile Include="TreeView.cpp" />
+    <ClCompile Include="WininetConnect.cpp" />
+    <ClCompile Include="InvisibleController.cpp" />
+    <ClCompile Include="ListViewBasic.cpp" />
+    <ClCompile Include="ListViewColumn.cpp" />
+    <ClCompile Include="Table.cpp" />
+    <ClCompile Include="ListViewImageList.cpp" />
+    <ClCompile Include="ListViewItem.cpp" />
+    <ClCompile Include="ContainedController.cpp" />
+    <ClCompile Include="Maschinen.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="PopUpMenu.cpp" />
+    <ClCompile Include="ProgressBar.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Notification.cpp" />
+    <ClCompile Include="UncontainedController.cpp" />
+    <ClCompile Include="VisibleController.cpp" />
+    <ClCompile Include="Window.cpp" />
+    <ClCompile Include="WindowsInternet.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

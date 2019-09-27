@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\file">
+      <UniqueIdentifier>{787cf00b-9dc9-4d80-9b21-067b3d066c8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\file\cloud">
+      <UniqueIdentifier>{107be3dd-4b29-4906-a75c-7ea1b49ce85b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\file">
+      <UniqueIdentifier>{7e81ced8-d9be-479d-a111-8cdba0376bc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\file\cloud">
+      <UniqueIdentifier>{d6ea2707-0d4b-45b6-97e6-4ed8cd79e676}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\file\local">
+      <UniqueIdentifier>{c3691dbb-166e-4dd3-9163-5cb30e11ab18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\file\local">
+      <UniqueIdentifier>{0f087c5c-5fff-4151-9e5a-200e022a1082}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\file\local\drive">
+      <UniqueIdentifier>{1139755e-cfa0-46a5-b80f-0592a679d9f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\file\local\drive">
+      <UniqueIdentifier>{e17da638-aabf-4d5d-914d-091d8e44d00e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SeraphCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Setting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UniversalMethode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SeraphException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cloud.h">
+      <Filter>Header Files\file\cloud</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseFile.h">
+      <Filter>Header Files\file</Filter>
+    </ClInclude>
+    <ClInclude Include="Local.h">
+      <Filter>Header Files\file\local</Filter>
+    </ClInclude>
+    <ClInclude Include="FileCloud.h">
+      <Filter>Header Files\file\cloud</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectoryCloud.h">
+      <Filter>Header Files\file\cloud</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectoryLocal.h">
+      <Filter>Header Files\file\local</Filter>
+    </ClInclude>
+    <ClInclude Include="Drive.h">
+      <Filter>Header Files\file\local\drive</Filter>
+    </ClInclude>
+    <ClInclude Include="DriveFixed.h">
+      <Filter>Header Files\file\local\drive</Filter>
+    </ClInclude>
+    <ClInclude Include="DriveRemovable.h">
+      <Filter>Header Files\file\local\drive</Filter>
+    </ClInclude>
+    <ClInclude Include="DriveUnknown.h">
+      <Filter>Header Files\file\local\drive</Filter>
+    </ClInclude>
+    <ClInclude Include="DriveCDRom.h">
+      <Filter>Header Files\file\local\drive</Filter>
+    </ClInclude>
+    <ClInclude Include="LocalIterator.h">
+      <Filter>Header Files\file\local</Filter>
+    </ClInclude>
+    <ClInclude Include="FileLocal.h">
+      <Filter>Header Files\file\local</Filter>
+    </ClInclude>
+    <ClInclude Include="DriveLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DriverIterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileUniversalMethode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CloudRecycleBin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CloudRecycleBinObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileTypeMapping.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SeraphCommon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Setting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UniversalMethode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SeraphException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseFile.cpp">
+      <Filter>Source Files\file</Filter>
+    </ClCompile>
+    <ClCompile Include="Cloud.cpp">
+      <Filter>Source Files\file\cloud</Filter>
+    </ClCompile>
+    <ClCompile Include="Local.cpp">
+      <Filter>Source Files\file\local</Filter>
+    </ClCompile>
+    <ClCompile Include="FileCloud.cpp">
+      <Filter>Source Files\file\cloud</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectoryCloud.cpp">
+      <Filter>Source Files\file\cloud</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectoryLocal.cpp">
+      <Filter>Source Files\file\local</Filter>
+    </ClCompile>
+    <ClCompile Include="FileLocal.cpp">
+      <Filter>Source Files\file\local</Filter>
+    </ClCompile>
+    <ClCompile Include="Drive.cpp">
+      <Filter>Source Files\file\local\drive</Filter>
+    </ClCompile>
+    <ClCompile Include="DriveCDRom.cpp">
+      <Filter>Source Files\file\local\drive</Filter>
+    </ClCompile>
+    <ClCompile Include="DriveFixed.cpp">
+      <Filter>Source Files\file\local\drive</Filter>
+    </ClCompile>
+    <ClCompile Include="DriveRemovable.cpp">
+      <Filter>Source Files\file\local\drive</Filter>
+    </ClCompile>
+    <ClCompile Include="DriveUnknown.cpp">
+      <Filter>Source Files\file\local\drive</Filter>
+    </ClCompile>
+    <ClCompile Include="LocalIterator.cpp">
+      <Filter>Source Files\file\local</Filter>
+    </ClCompile>
+    <ClCompile Include="DriveLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DriverIterator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileUniversalMethode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CloudRecycleBin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CloudRecycleBinObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTypeMapping.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
